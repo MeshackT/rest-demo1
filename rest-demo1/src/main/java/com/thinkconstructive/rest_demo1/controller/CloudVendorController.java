@@ -15,8 +15,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @CrossOrigin(origins = "*") // Allow only from this origin
-@RestController
-@RequestMapping("/cloud_vendor")
+@RestController 
+// localhosit
+//@RequestMapping("/cloud_vendor")
+//google cloud
+@RequestMapping("/vendor_cloud")
+
 public class CloudVendorController {
     CloudVendorService cloudVendorService;
 

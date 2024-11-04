@@ -1,9 +1,19 @@
 
 spring:
-    datasource: 
-        url: jdbc:mysql://localhost:3306/cloud_vendor?useSSL=false
-        username: root
-        password: admin
-        
+   datasource: 
+       url: jdbc:mysql://localhost:3306/cloud_vendor?useSSL=false
+       username: root
+       password: admin
+       
 #jpa settings
 jpa:hibernate.ddl_auto: create
+
+#google cloud instnace
+# spring:
+#     datasource: 
+#         url: jdbc:mysql://localhost:3306/vendor_cloud?useSSL=false
+#         username: mish
+#         password: mish
+        
+# #jpa settings
+# jpa:hibernate.ddl_auto: create
