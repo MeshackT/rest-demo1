@@ -11,9 +11,9 @@ jpa:hibernate.ddl_auto: create
 #google cloud instnace
 # spring:
 #     datasource: 
-#         url: jdbc:mysql://localhost:3306/vendor_cloud?useSSL=false
-#         username: mish
-#         password: mish
+#         url: jdbc:mysql://>GOOGLE_CLOUD_ADDRESS>/vendor_cloud?useSSL=false
+#         username: mish <GOOGLE_CLOUD_USERNAME>
+#         password: mish <GOOGLE_CLOUD_USER_PASSWORD>
         
 # #jpa settings
 # jpa:hibernate.ddl_auto: create
